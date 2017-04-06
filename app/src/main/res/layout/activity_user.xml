@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingTop="60dp"
+    android:paddingBottom="60dp"
+    android:background="@drawable/background"
+    tools:context="ng.bartr.bartr10.UserActivity">
+
+    <ImageView
+        android:id="@+id/auth_user_pic"
+        android:src="@drawable/user_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/auth_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/auth_user_pic"
+        android:textSize="43sp"/>
+
+
+</RelativeLayout>
